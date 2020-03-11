@@ -1,6 +1,6 @@
 ### BrainData Analysis with Matplotlib
 
-##### 뇌파분석소프트웨어를 개발 하기 전 matplotlib을 사용하여 몇 가지 기능을 구현 해보았습니다
+#### 뇌파분석소프트웨어를 개발 하기 전 matplotlib을 사용하여 몇 가지 기능을 구현 해보았습니다
 
 1. plot_stimulus_detection.ipynb
 
