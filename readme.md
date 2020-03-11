@@ -2,6 +2,10 @@
 
 ### 뇌파분석소프트웨어를 개발 하기 전 matplotlib을 사용하여 몇 가지 기능을 구현 해보았습니다
 
+Multi Channel MicroChip은 쥐 뇌표면에 삽입되어 여러 뇌의 위치로 부터 뇌파를 읽어들입니다. 쥐의 발바닥을 자극하면 특정 채널에서 뇌파 시그널에 유의미한 변화를 관찰 할 수 있습니다. 본 프로젝트의 목적은 이러한 원리를 이용하여 쥐로부터 뇌파를 실시간으로 읽어들여 쥐의 질병 및 이상행동을 감지 하고자 함에 있습니다.
+
+
+
 Data 형식은 csv 이며 구조는 다음과 같습니다. 실제데이터는 회사보안정책상 공개하지 않습니다
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
@@ -35,11 +39,11 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 #### 2. liveplot.ipynb
 
-   matplotlib animation을 사용하여 4개의 liveplot을 구현 해보았습니다.![4liveplot](/images/4liveplot.png)
+   여러가지 채널의 정보를 한번에 띄우기위해 matplotlib animation을 사용하여 4개의 채널에 대한 liveplot을 구현 해보았습니다.![4liveplot](/images/4liveplot.png)
 
 #### 3. liveplot_with_detection.ipynb
 
-   자극을 실시간으로 감지하여 live plot을 그려줍니다. heatmap을 통해 자극의 횟수 또한 실시간으로 시각화 합니다.![live_stimulus](/images/live_stimulus.png)
+   자극을 실시간으로 감지하여 live plot을 그려줍니다. heatmap을 통해 자극의 횟수 또한 실시간으로 시각화 합니다. heatmap을 통해 어떤 위치에서 자극이 발생하였는지 한눈에 시각화 할 수 있습니다.  ![live_stimulus](/images/live_stimulus.png)
 
 #### 4. simulate.ipynb
 
